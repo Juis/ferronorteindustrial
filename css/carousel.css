@@ -1,0 +1,36 @@
+.jcarousel-skin-tango .jcarousel-container {}
+.jcarousel-skin-tango .jcarousel-direction-rtl {direction:rtl;}
+.jcarousel-skin-tango .jcarousel-container-horizontal {width:428px; padding:0 30px 0 40px;}
+.jcarousel-skin-tango .jcarousel-clip {overflow:hidden;}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {width:415px; height:170px;}
+
+.jcarousel-skin-tango .jcarousel-item {width:125px; height:170px;}
+.jcarousel-skin-tango .jcarousel-item a {float:left; width:100px; height:15px; color:#0B4081; margin:5px 0; padding:3px 5px 5px 10px;}
+.jcarousel-skin-tango .jcarousel-item a:hover {color:#fff; background:url(../imgs/bg-mais-detalhes.jpg) no-repeat;}
+.jcarousel-skin-tango .jcarousel-item-horizontal {margin-left:0; margin-right:20px;}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {margin-left:10px; margin-right:0;}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {background:#fff; color:#000;}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal {position:absolute; top:35px; right:2px; width:36px; height:36px; cursor: pointer; background:url(../imgs/bg-nav-dir.jpg) no-repeat 0 0;}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {left:5px; right: auto; background-image: url(prev-horizontal.png);}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {cursor:default; background-position:bottom;}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {position:absolute; top:35px; left:0px; width:36px; height:36px; cursor: pointer; background:url(../imgs/bg-nav-esq.jpg) no-repeat 0 0;}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {left:auto; right:5px; background-image: url(next-horizontal.png);}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {cursor:default; background-position:bottom;}
+
+
+.jcarousel-item-horizontal p {font:11px Arial; color:#333; min-height:28px;}

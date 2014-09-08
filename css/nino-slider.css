@@ -1,0 +1,104 @@
+/*
+ * jQuery Nivo Slider v2.6
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	float:left; width:900px;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:8;
+}
+.nivo-caption p {padding:10px 30px; margin:0; height:60px;}
+.nivo-caption p strong{font:normal 22px Arial; display:block; text-align:left; color:#FFFF00; letter-spacing:0.5px;}
+.nivo-caption p span{font:normal 14px Arial; display:block; text-align:left;}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {position:absolute; bottom:-52px; z-index:9; cursor:pointer; height:115px; width:111px; display:none !important;}
+.nivo-directionNav a.nivo-prevNav {left:-44px; background-position:0px -108px;}
+.nivo-directionNav a.nivo-nextNav {right:-43px; background-position:-112px -108px;}
+.nivo-directionNav a.nivo-prevNav:hover {background-position:-225px -108px;}
+.nivo-directionNav a.nivo-nextNav:hover {background-position:-337px -108px;}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {bottom:10px; right:80px; position:absolute;}
+.nivo-controlNav a{background:url(../images/bg-seletor-slider.png) no-repeat; border:0 none; cursor:pointer; float:left; height:11px; margin-right:7px; position:relative;  text-indent: -9999px; width:11px; z-index:9;}
+.nivo-controlNav a.active {background-position:bottom;}
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+.theme-default #slider {
+    margin:10px 0;
+    width:900px !important; /* Make sure your images are the same size */
+    height:217px !important; /* Make sure your images are the same size */
+   	position: relative;
+	z-index:0;
+
+}
+.theme-pascal.slider-wrapper,
+.theme-orman.slider-wrapper {
+    margin-top:150px;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
