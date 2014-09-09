@@ -1,4 +1,5 @@
-	<div class="pagina-interna">			
+	<div id="id_view" style="display:none;position: absolute;left: 100px;top: 150px;"></div>
+	<div class="pagina-interna">
 		<div class="conteudo_produtos">
 			<div class="titulo_produto" >
 				<strong>PRODUTOS</strong>
@@ -17,9 +18,12 @@
 					));*/ ?>
 					<b id="quantidade_itens">0</b>
 				</h3>
+				 
+				
 			</div>
 			<div class="container_noticia">
-				<?php $form=$this->beginWidget('CActiveForm', array(
+				<?php
+				 $form=$this->beginWidget('CActiveForm', array(
 				    'enableAjaxValidation'=>true
 				)); ?>
 				<?php
@@ -111,7 +115,14 @@
                                       		$modal.load($remote);
                                 		}',
                     					'options' => array('data-toggle' => 'ajaxModal','style' => 'padding:4px;'),*/
-							            #'url'=>'Yii::app()->controller->createUrl("/ferronorteindustrial/orcamento/addProduto",array("linha"=>$data->primaryKey))'
+							            'url'=>'Yii::app()->controller->createUrl("/ferronorteindustrial/orcamento/addProduto",array("linha"=>$data->primaryKey))',
+							            'options'=>array(  
+					                        'ajax'=>array(
+				                                'type'=>'POST',
+				                                'url'=>"js:$(this).attr('href')", 
+				                                'update'=>'#id_view',
+				                            ),
+				                        ),
 							        )
 							    )
 							)

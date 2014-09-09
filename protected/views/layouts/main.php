@@ -21,8 +21,7 @@
 	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/nino-slider.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/carousel.css" type="text/css" media="screen" />     
 	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" type="text/css" media="screen" />
-			
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
+
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/util.js"></script>
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/ajax.js"></script>
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/ui.js"></script>
@@ -32,7 +31,6 @@
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/form.js"></script>								
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/initialization.js"></script>
 	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/masked.js"></script>
-    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1_6.js"></script>
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-nino.js"></script>
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jcarousel.js"></script>
 

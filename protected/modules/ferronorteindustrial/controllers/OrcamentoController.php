@@ -16,8 +16,8 @@ class OrcamentoController extends CController{
     	);
 	}
 
-	public function actionAddProduto($linha, $quantidade){
-		$x = Yii::app()->request->getParam('Quantidade');
+	public function actionAddProduto($linha){
+		/*$x = Yii::app()->request->getParam('Quantidade');
 		var_dump($_GET);
 		if(isset($x)){
 			$carrinhoInsert = new Carrinho();
@@ -28,8 +28,13 @@ class OrcamentoController extends CController{
 			Yii::app()->user->setFlash('success', 'produto registrado!');
 		}else{
 			Yii::app()->user->setFlash('error', 'nao entrou post quantidade 2!!!');
-		}
-
+		}*/
+		$carrinhoConsulta = new Carrinho('Carrinho');
+		$this->render('addProduto',array(
+        		'id'=>$linha,
+        		'carrinhoConsulta' => $carrinhoConsulta
+    		)
+    	);
 		#$this->actionIndex();
 	}
 
