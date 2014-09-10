@@ -16810,3 +16810,247 @@ Stack trace:
 REQUEST_URI=/projetos/ferronorteindustrial/js/polpover.js?_=1410306888418
 HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
 ---
+2014/09/10 02:03:10 [error] [php] Undefined index: Produto (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:34)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (34)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:03:27 [error] [php] Undefined index: Carrinho (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:34)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (34)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:06:44 [error] [php] Creating default object from empty value (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:35)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (35)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:06:54 [error] [php] Creating default object from empty value (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:35)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (35)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:06:59 [error] [php] Creating default object from empty value (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:35)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (35)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:07:46 [error] [php] Creating default object from empty value (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:35)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (35)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:08:51 [error] [php] Undefined variable: orcamentoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:20)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (20)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:08:57 [error] [php] Undefined variable: orcamentoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:20)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (20)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:09:09 [error] [php] Undefined variable: orcamentoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:23)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (23)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:09:16 [error] [php] Undefined variable: orcamentoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:23)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (23)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:09:45 [error] [php] Creating default object from empty value (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:24)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (24)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:10:20 [error] [php] Creating default object from empty value (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:24)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (24)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:12:03 [error] [php] Trying to get property of non-object (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:24)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (24)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:13:24 [error] [php] Trying to get property of non-object (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:26)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (26)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:14:25 [error] [php] Trying to get property of non-object (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:26)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (26)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:17:36 [error] [php] Undefined index: PHPSESSID (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:26)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (26)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 02:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/224d673767f6659ae96c85ef3485edd6.jpg".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('images/224d6737...')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/images/224d673767f6659ae96c85ef3485edd6.jpg
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/home
+---
+2014/09/10 02:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "images/d125ac275187d18a3bd6254b7b2a6b3b.jpg".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('images/d125ac27...')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/images/d125ac275187d18a3bd6254b7b2a6b3b.jpg
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/home
+---
+2014/09/10 02:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "imgs/bg-nav-dir.jpg".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('imgs/bg-nav-dir...')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/imgs/bg-nav-dir.jpg
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/css/carousel.css
+---
+2014/09/10 02:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "imgs/bg-nav-esq.jpg".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('imgs/bg-nav-esq...')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/imgs/bg-nav-esq.jpg
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/css/carousel.css
+---

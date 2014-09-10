@@ -31,8 +31,8 @@ class Carrinho extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('produto_id, quantidade, sessionid', 'required'),
-			array('produto_id, quantidade', 'numerical', 'integerOnly'=>true),
-			array('sessionid', 'length', 'max'=>24),
+			#array('produto_id, quantidade', 'numerical', 'integerOnly'=>true),
+			array('sessionid', 'length', 'max'=>30),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, produto_id, quantidade, sessionid', 'safe', 'on'=>'search'),

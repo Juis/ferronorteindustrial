@@ -11,25 +11,35 @@ class OrcamentoController extends CController{
         }
 
         $this->render('index',array(
-        		'produtoConsulta'=>$produtoConsulta
+        		'produtoConsulta'=>$produtoConsulta,
+        		'quantidade'=>0
     		)
     	);
 	}
 
 	public function actionAddProduto($linha){
-		/*$x = Yii::app()->request->getParam('Quantidade');
-		var_dump($_GET);
-		if(isset($x)){
-			$carrinhoInsert = new Carrinho();
-			$carrinhoInsert->produto_id = (int)$linha;
-			$carrinhoInsert->quantidade = (int)$x[$linha];
-			$carrinhoInsert->sessionid = Yii::app()->request->cookies['PHPSESSID']->value;
-			$carrinhoInsert->save(false);
-			Yii::app()->user->setFlash('success', 'produto registrado!');
-		}else{
-			Yii::app()->user->setFlash('error', 'nao entrou post quantidade 2!!!');
-		}*/
 		$carrinhoConsulta = new Carrinho('Carrinho');
+		if(isset($_POST['Carrinho'])){
+			$carrinhoConsulta->attributes=$_POST['Carrinho'];
+			$carrinhoConsulta->sessionid = Yii::app()->session->sessionID;
+			if($carrinhoConsulta->validate()){
+				if(!$carrinhoConsulta->save(false)){
+					throw new CHttpException(404,'Não foi possivel registrar o produto!');	
+				}
+
+				$produtoConsulta = new Produto('search');
+		        $produtoConsulta->unsetAttributes();
+		        if(isset($_GET['Produto'])){
+		            $produtoConsulta->attributes=$_GET['Produto'];
+		        }
+
+		        $this->render('index',array(
+		        		'produtoConsulta'=>$produtoConsulta
+		    		)
+		    	);
+			}
+		}
+
 		$this->render('addProduto',array(
         		'id'=>$linha,
         		'carrinhoConsulta' => $carrinhoConsulta
