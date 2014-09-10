@@ -16,7 +16,7 @@
 						'url'=>array('/ferronorteindustrial/orcamento/update'),
 					    'callback'=>array("$('#quantidade_itens').html(data);")
 					));*/ ?>
-					<b id="quantidade_itens">0</b>
+					<b id="quantidade_itens"><?php echo $quantidade; ?></b>
 				</h3>
 				 
 				

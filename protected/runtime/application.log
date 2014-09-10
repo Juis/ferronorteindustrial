@@ -17054,3 +17054,451 @@ Stack trace:
 REQUEST_URI=/projetos/ferronorteindustrial/imgs/bg-nav-esq.jpg
 HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/css/carousel.css
 ---
+2014/09/10 03:40:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:40:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:40:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/index
+---
+2014/09/10 03:41:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/index
+---
+2014/09/10 03:41:44 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::execute(): SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fni_ferronorte`.`carrinho`, CONSTRAINT `fk_carrinho_produto1` FOREIGN KEY (`produto_id`) REFERENCES `produto` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). A declaração SQL executada foi: INSERT INTO `carrinho` (`quantidade`, `produto_id`, `sessionid`) VALUES (:yp0, :yp1, :yp2).
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (26)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 03:41:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fni_ferronorte`.`carrinho`, CONSTRAINT `fk_carrinho_produto1` FOREIGN KEY (`produto_id`) REFERENCES `produto` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `carrinho` (`quantidade`, `produto_id`, `sessionid`) VALUES (:yp0, :yp1, :yp2)' in D:\arquivos de programas\wamp\www\yii-root\db\CDbCommand.php:358
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 D:\arquivos de programas\wamp\www\yii-root\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php(26): CActiveRecord->save(false)
+#3 [internal function]: OrcamentoController->actionAddProduto('index')
+#4 D:\arquivos de programas\wamp\www\yii-root\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(OrcamentoController), Array)
+#5 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrcamentoController), Object(ReflectionMethod), Array)
+#6 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): CController->run('addproduto')
+#10 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('ferronorteindus...')
+#11 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/index
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/index
+---
+2014/09/10 03:42:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/ferronorteindustrial/orcamento/index
+---
+2014/09/10 03:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "orcamento/index".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('orcamento/index')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/orcamento/index
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:43:49 [error] [exception.CException] exception 'CException' with message 'OrcamentoController não pôde encontrar a visualização "/projetos/ferronorteindustrial/orcamento" solicitada.' in D:\arquivos de programas\wamp\www\yii-root\web\CController.php:878
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(782): CController->renderPartial('/projetos/ferro...', Array, true)
+#1 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php(39): CController->render('/projetos/ferro...', Array)
+#2 [internal function]: OrcamentoController->actionAddProduto('2')
+#3 D:\arquivos de programas\wamp\www\yii-root\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(OrcamentoController), Array)
+#4 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrcamentoController), Object(ReflectionMethod), Array)
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): CController->run('addproduto')
+#9 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('ferronorteindus...')
+#10 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/2
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:44:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:48:08 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetch(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'column) AS quantidade FROM `produto` `t` WHERE sessionid=m5f49edp71cj3aukcinmi9h' at line 1. A declaração SQL executada foi: SELECT sum(column) AS quantidade FROM `produto` `t` WHERE sessionid=m5f49edp71cj3aukcinmi9hma7 LIMIT 1.
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (39)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 03:48:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'column) AS quantidade FROM `produto` `t` WHERE sessionid=m5f49edp71cj3aukcinmi9h' at line 1. The SQL statement executed was: SELECT sum(column) AS quantidade FROM `produto` `t` WHERE sessionid=m5f49edp71cj3aukcinmi9hma7 LIMIT 1' in D:\arquivos de programas\wamp\www\yii-root\db\CDbCommand.php:543
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\arquivos de programas\wamp\www\yii-root\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 D:\arquivos de programas\wamp\www\yii-root\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php(39): CActiveRecord->find(Object(CDbCriteria))
+#4 [internal function]: OrcamentoController->actionAddProduto('2')
+#5 D:\arquivos de programas\wamp\www\yii-root\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(OrcamentoController), Array)
+#6 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrcamentoController), Object(ReflectionMethod), Array)
+#7 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): CController->run('addproduto')
+#11 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('ferronorteindus...')
+#12 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/2
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:49:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:49:39 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetch(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sessionid' in 'field list'. A declaração SQL executada foi: SELECT sum(sessionid) AS quantidade FROM `produto` `t` WHERE sessionid=m5f49edp71cj3aukcinmi9hma7 LIMIT 1.
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (39)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 03:49:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sessionid' in 'field list'. The SQL statement executed was: SELECT sum(sessionid) AS quantidade FROM `produto` `t` WHERE sessionid=m5f49edp71cj3aukcinmi9hma7 LIMIT 1' in D:\arquivos de programas\wamp\www\yii-root\db\CDbCommand.php:543
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\arquivos de programas\wamp\www\yii-root\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 D:\arquivos de programas\wamp\www\yii-root\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php(39): CActiveRecord->find(Object(CDbCriteria))
+#4 [internal function]: OrcamentoController->actionAddProduto('2')
+#5 D:\arquivos de programas\wamp\www\yii-root\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(OrcamentoController), Array)
+#6 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrcamentoController), Object(ReflectionMethod), Array)
+#7 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): CController->run('addproduto')
+#11 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('ferronorteindus...')
+#12 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/2
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:50:18 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetch(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm5f49edp71cj3aukcinmi9hma7' in 'where clause'. A declaração SQL executada foi: SELECT sum(sessionid) AS quantidade FROM `carrinho` `t` WHERE sessionid=m5f49edp71cj3aukcinmi9hma7 LIMIT 1.
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (39)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 03:50:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm5f49edp71cj3aukcinmi9hma7' in 'where clause'. The SQL statement executed was: SELECT sum(sessionid) AS quantidade FROM `carrinho` `t` WHERE sessionid=m5f49edp71cj3aukcinmi9hma7 LIMIT 1' in D:\arquivos de programas\wamp\www\yii-root\db\CDbCommand.php:543
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\arquivos de programas\wamp\www\yii-root\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 D:\arquivos de programas\wamp\www\yii-root\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php(39): CActiveRecord->find(Object(CDbCriteria))
+#4 [internal function]: OrcamentoController->actionAddProduto('2')
+#5 D:\arquivos de programas\wamp\www\yii-root\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(OrcamentoController), Array)
+#6 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrcamentoController), Object(ReflectionMethod), Array)
+#7 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): CController->run('addproduto')
+#11 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('ferronorteindus...')
+#12 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/2
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:51:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:51:19 [error] [php] Array to string conversion (D:\arquivos de programas\wamp\www\yii-root\db\schema\CDbCommandBuilder.php:481)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\db\ar\CActiveRecord.php(1456): Carrinho->query()
+#1 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php(39): Carrinho->find()
+#2 unknown(0): OrcamentoController->actionAddProduto()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#4 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#5 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#7 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#8 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#9 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/2
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (39)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 03:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:53:59 [error] [system.db.CDbCommand] Falha ao executar CDbCommand::fetch(): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm5f49edp71cj3aukcinmi9hma7' in 'where clause'. A declaração SQL executada foi: SELECT sum(sessionid) AS quantidade FROM `carrinho` `t` WHERE sessionid=m5f49edp71cj3aukcinmi9hma7 LIMIT 1.
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (39)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 03:53:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falhou ao executar o comando SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm5f49edp71cj3aukcinmi9hma7' in 'where clause'. The SQL statement executed was: SELECT sum(sessionid) AS quantidade FROM `carrinho` `t` WHERE sessionid=m5f49edp71cj3aukcinmi9hma7 LIMIT 1' in D:\arquivos de programas\wamp\www\yii-root\db\CDbCommand.php:543
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\arquivos de programas\wamp\www\yii-root\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 D:\arquivos de programas\wamp\www\yii-root\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php(39): CActiveRecord->find(Object(CDbCriteria))
+#4 [internal function]: OrcamentoController->actionAddProduto('1')
+#5 D:\arquivos de programas\wamp\www\yii-root\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(OrcamentoController), Array)
+#6 D:\arquivos de programas\wamp\www\yii-root\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrcamentoController), Object(ReflectionMethod), Array)
+#7 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): CController->run('addproduto')
+#11 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('ferronorteindus...')
+#12 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:55:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:55:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:56:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 03:59:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/ferronorteindustrial/orcamento/addProduto/linha/1
+---
+2014/09/10 03:59:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---
+2014/09/10 04:02:48 [error] [php] Undefined variable: carrinhoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:17)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/orcamento
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (17)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 04:02:50 [error] [php] Undefined variable: carrinhoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:17)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/orcamento
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (17)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 04:02:50 [error] [php] Undefined variable: carrinhoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:17)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/orcamento
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (17)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 04:02:51 [error] [php] Undefined variable: carrinhoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:17)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/orcamento
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (17)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 04:02:51 [error] [php] Undefined variable: carrinhoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:17)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/orcamento
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (17)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 04:02:52 [error] [php] Undefined variable: carrinhoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:17)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/orcamento
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (17)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 04:02:52 [error] [php] Undefined variable: carrinhoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:17)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/orcamento
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (17)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 04:02:52 [error] [php] Undefined variable: carrinhoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:17)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/orcamento
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (17)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 04:02:52 [error] [php] Undefined variable: carrinhoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:17)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/orcamento
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (17)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 04:02:52 [error] [php] Undefined variable: carrinhoConsulta (D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php:17)
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(286): OrcamentoController->runAction()
+#1 D:\arquivos de programas\wamp\www\yii-root\web\CController.php(265): OrcamentoController->runActionWithFilters()
+#2 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(282): OrcamentoController->run()
+#3 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CWebApplication->run()
+REQUEST_URI=/projetos/ferronorteindustrial/orcamento
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\protected\modules\ferronorteindustrial\controllers\OrcamentoController.php (17)
+in D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php (13)
+2014/09/10 04:03:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "module/action".' in D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php:286
+Stack trace:
+#0 D:\arquivos de programas\wamp\www\yii-root\web\CWebApplication.php(141): CWebApplication->runController('module/action')
+#1 D:\arquivos de programas\wamp\www\yii-root\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\arquivos de programas\wamp\www\projetos\ferronorteindustrial\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/projetos/ferronorteindustrial/index.php/module/action/
+HTTP_REFERER=http://localhost/projetos/ferronorteindustrial/orcamento
+---

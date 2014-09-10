@@ -10,14 +10,24 @@ class OrcamentoController extends CController{
             $produtoConsulta->attributes=$_GET['Produto'];
         }
 
+        $carrinhoConsulta = new Carrinho('Carrinho');
+        $criteria=new CDbCriteria;
+		$criteria->select='sum(1) AS quantidade';
+		$criteria->condition = 'sessionid=:sessionid';
+		$criteria->params = array(':sessionid' => Yii::app()->session->sessionID);
+		$row = $carrinhoConsulta->model()->find($criteria);
+		if(!$row['quantidade']){
+			$row['quantidade'] = 0;
+		}
+
         $this->render('index',array(
         		'produtoConsulta'=>$produtoConsulta,
-        		'quantidade'=>0
+        		'quantidade'=>$row['quantidade']
     		)
     	);
 	}
 
-	public function actionAddProduto($linha){
+	public function actionAddProduto($linha=null){
 		$carrinhoConsulta = new Carrinho('Carrinho');
 		if(isset($_POST['Carrinho'])){
 			$carrinhoConsulta->attributes=$_POST['Carrinho'];
@@ -27,16 +37,7 @@ class OrcamentoController extends CController{
 					throw new CHttpException(404,'Não foi possivel registrar o produto!');	
 				}
 
-				$produtoConsulta = new Produto('search');
-		        $produtoConsulta->unsetAttributes();
-		        if(isset($_GET['Produto'])){
-		            $produtoConsulta->attributes=$_GET['Produto'];
-		        }
-
-		        $this->render('index',array(
-		        		'produtoConsulta'=>$produtoConsulta
-		    		)
-		    	);
+		        $this->redirect('/projetos/ferronorteindustrial/orcamento');
 			}
 		}
 
